@@ -1,0 +1,30 @@
+﻿<html>
+
+<head>
+<title>Choix d'une opération sur 2 nombres</title>
+</head>
+
+ <body>
+
+  <form action="operationPOST.php" method="post">
+
+	<h1>Opération sur deux nombres</h1>
+	Valeurs sur les quelles sera appliquée l'opération demandée ? <br/>
+	
+
+	<label  for = 'val1'>Valeur 1 : </label> <input name="nb1" size="3" type="text"/><br/>
+	<label   for = 'val2'>Valeur 2 : </label><input name="nb2" size="3" type="text"/><br/>
+	choix d'opération:
+	<select  id="choix d'opération">
+		<option value="Addition">Addition</option>
+		<option value="Soustraction">Soustraction</option>
+		<option value="Soustraction">Multiplication</option>
+	</select>
+
+	<br/> 
+	<input value="Calculer" type="submit"/> 
+	<input type="reset" name="btAnnuler" value="Annuler" /></p>
+   </form>
+ </body>
+
+</html>
